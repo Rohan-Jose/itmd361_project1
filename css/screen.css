@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(27, 27, 27);
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+#divider {
+    width:25%;
+    color: greenyellow;
+    size:6;
+    box-align: center;
+}
+
+#divider2 {
+    width:25%;
+    color: greenyellow;
+    size:6;
+    box-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+h3 {
+    color:black;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 0.4em;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#formbox {
+    width: 500px;
+    overflow: hidden;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px greenyellow;
+	-moz-box-shadow: 0px 0px 15px greenyellow;
+	-webkit-box-shadow:  0px 0px 15px greenyellow;
+}
+
+input {
+    float: right;
+    clear: both;
+}
+
+li {
+    text-align: left;
+    padding: 0.5em;
+}
+
+.button {
+    background-color: greenyellow;
+    color: black;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid greenyellow;
+}
+
